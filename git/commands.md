@@ -28,7 +28,7 @@ git config --global user.email zzzz@yyy.xxx
 `git status`
 
 добавит новые файлы (изменения) в репо:
-`git add` (имя нового файла или добавить все - .)
+`git add` (имя нового файла или добавить все - `.`)
 
 добавить комент к изменениям:
 `git commit -m 'add file test'`
