@@ -14,8 +14,7 @@ git config --global user.email zzzz@yyy.xxx
 
 ` git config -l`
 
-
-содать репо
+### для ключа должны быть следующие разрешения: `chmod 0400`
 
 делаем клон репо:
 
