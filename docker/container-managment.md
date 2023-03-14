@@ -10,6 +10,9 @@
 
 Изменить заданное ранее имя для контейнера `rename` (Например: `sudo docker rename old_name new_name`)
 
-
+### Удалить все остановленные контейнеры 
+```
+sudo docker container prune
+```
 
  
