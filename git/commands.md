@@ -41,7 +41,13 @@ git config --global user.email zzzz@yyy.xxx
 `git branch`
 
 создать ветку:
-`git branch имя`
+```
+git branch имя
+```
+удалить ветку:
+```
+git branch -d имя
+```
 
 перейти в ветку:
 `git checkout имя`
