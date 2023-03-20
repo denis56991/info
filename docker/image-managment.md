@@ -1,0 +1,47 @@
+
+# Работа с docker image
+
+<br>
+
+## Управление images
+***
+Для просмотра слоев и команд используемых при сборке image:<br>`sudo docker history [image_name]`
+
+ <br>
+
+Чтобы посмотреть более детальную информацию:<br>`sudo docker inspect [image_name]`
+
+***
+<br>
+<br>
+
+*** 
+Чтобы скачать image используется команда:<br>`sudo docker pull [image_name]`
+<br>
+<br>
+Для просмотра всех загруженных image использются команды:<br>
+1. `sudo docker image ls`
+1. `sudo docker images`
+<br>
+для выбора формата списка можно воспользоваться `--format{{Имя_столбца}}`<br>
+например: `sudo docker image ls --format {{.Tag}}`  
+***
+<br>
+<br>
+
+*** 
+Для удаления image можно использовать команду `rm`<br>
+например: `sudo docker image rm [image_name]`
+
+> Если на image, который пытаемся удалить ссылается контейнер, то предварительно надо остановить и удалить контейнер на который ссылается наш image.
+
+<br>
+Если у нас есть image без тега например:<br><br>
+
+|  REPOSITORY  | TAG      | IMAGE ID        |  CREATED      |  SIZE    |
+|:------------:|:--------:|:---------------:|:-------------:|:--------:|
+|  nginx       |  latest  |  904b8cb13b93   |  2 weeks ago  |  142MB   |
+|  node        |  latest  |  904b8cb13b93   |  2 weeks ago  |  142MB   |
+|  node        | < none > |  fe9a4b9e181a   |  2 weeks ago  |  999MB   |
+
+такие image можно чистить командой: `sudo docker image prune`<br> Этим мы удалим все image без тега.
