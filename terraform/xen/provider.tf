@@ -6,6 +6,7 @@ terraform {
  }
 }
 
+
 provider "xenorchestra" {
 
  url = "ws://10.2.80.100"
