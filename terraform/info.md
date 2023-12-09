@@ -2,8 +2,10 @@
 
 для обхода блокировки использую зеркало hashicorp от Яндекса:
 
-```bash nano ~/.terterraformrc```
-
+```bash 
+nano ~/.terterraformrc
+```
+/hr
 ```tf
 provider_installation {
   network_mirror {
