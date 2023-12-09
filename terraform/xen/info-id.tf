@@ -4,7 +4,7 @@ data "xenorchestra_pool" "pool" {
 }
 # получаем инфу о шаблоне
 data "xenorchestra_template" "vm_template" {
-  name_label = "terraform-template"
+  name_label = "template-win-srv"
 }
 # получаем инфу о хранилище в котором будет храниться ВМ
 data "xenorchestra_sr" "sr" {
