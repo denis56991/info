@@ -2,7 +2,7 @@
 
 для обхода блокировки использую зеркало hashicorp от Яндекса:
 
-`nano ~/.terterraformrc`
+```bash nano ~/.terterraformrc```
 
 ```tf
 provider_installation {
