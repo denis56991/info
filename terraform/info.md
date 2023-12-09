@@ -5,7 +5,7 @@
 ```bash 
 nano ~/.terterraformrc
 ```
-/hr
+
 ```tf
 provider_installation {
   network_mirror {
