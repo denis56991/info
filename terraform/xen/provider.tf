@@ -9,8 +9,8 @@ terraform {
 
 provider "xenorchestra" {
 
- url = "ws://10.2.80.100"
- username = "terraf"
- password = "Belk@Jj0t!"
+ url = "ws://ip or domain name"
+ username = "login"
+ password = "password"
 
 }
