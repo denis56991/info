@@ -2,9 +2,9 @@
 
 для обхода блокировки использую зеркало hashicorp от Яндекса:
 
-'nano ~/.terraformrc'
+`nano ~/.terterraformrc`
 
-'''tf
+```tf
 provider_installation {
   network_mirror {
     url = "https://terraform-mirror.yandexcloud.net/"
@@ -14,4 +14,4 @@ provider_installation {
     exclude = ["registry.terraform.io/*/*"]
   }
 }
-'''
+```
