@@ -3,7 +3,7 @@
 для обхода блокировки использую зеркало hashicorp от Яндекса:
 
 ```bash 
-nano ~/.terterraformrc
+nano ~/.terraformrc
 ```
 
 ```tf
