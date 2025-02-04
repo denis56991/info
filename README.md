@@ -1,4 +1,4 @@
-# githab
+# git
 
 `git --version`
 
